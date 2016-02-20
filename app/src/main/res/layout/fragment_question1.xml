@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.corey.as_quiz_app.Question1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="119dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="This is a bunch of text for querstion 1, what could the answer be?"
+        android:id="@+id/Q1Question"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/Q1Answer"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:enabled="true"
+        android:hint="Type Answer"
+        android:editable="true"
+        android:textSize="30dp" />
+</FrameLayout>
